@@ -1,6 +1,6 @@
 ## Description
 
-Nest JS example project with local and JWT authentication strategies using Passport
+Nest JS authorization example project
 
 ## Installation
 
