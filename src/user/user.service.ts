@@ -1,4 +1,5 @@
 import { Injectable } from '@nestjs/common';
+import { Role } from 'src/roles/roles.enum';
 
 @Injectable()
 export class UserService {
@@ -7,11 +8,13 @@ export class UserService {
       userId: 1,
       username: 'john',
       password: 'changeme',
+      roles: [Role.User],
     },
     {
       userId: 2,
       username: 'maria',
       password: 'guess',
+      roles: [Role.Admin],
     },
   ];
 
